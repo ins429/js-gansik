@@ -1,0 +1,47 @@
+.post-form {
+  padding: 1rem;
+}
+
+.post-form__title-input {
+  padding: 1rem;
+  border: 0;
+  border-bottom: 0.1rem solid #333;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-right: 1rem;
+  transition: border .1s ease-out;
+  outline: none;
+}
+
+.post-form__title-input:focus {
+  border-color: transparent;
+}
+
+.post-form__body-input {
+  padding: 1rem;
+  border: 0;
+  border-bottom: 0.1rem solid #333;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  transition: border .1s ease-out;
+  outline: none;
+}
+
+.post-form__body-input:focus {
+  border-color: transparent;
+}
+
+.post-form__submit-button, .post-form__cancel-button {
+  cursor: pointer;
+  background: none;
+  padding: .5rem;
+  border: .01rem solid #333;
+  transition: background .3s ease-out;
+  margin-right: .5rem;
+  outline: none;
+
+  &:hover {
+    color: #fff;
+    background: #333;
+  }
+}

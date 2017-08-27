@@ -1,0 +1,35 @@
+
+.comment-form {
+}
+
+.comment-form__comment-input {
+  padding: .25rem;
+  border: 0;
+  border-bottom: 0.1rem solid #333;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  outline: none;
+}
+
+.comment-form__comment-input:focus {
+  border-color: transparent;
+  transition: border .1s ease-out;
+}
+
+.comment-form__submit-button {
+  display: inline-block;
+  font-size: .6rem;
+  background: none;
+  padding: .2rem;
+  margin-left: 1rem;
+  border: .01rem solid #333;
+  cursor: pointer;
+  transition: background .3s ease-out;
+  margin-right: .5rem;
+  outline: none;
+
+  &:hover {
+    color: #fff;
+    background: #333;
+  }
+}

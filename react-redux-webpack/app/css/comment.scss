@@ -1,0 +1,32 @@
+
+.comment {
+}
+
+.comment__comment {
+  display: inline-block;
+  font-size: .75rem;
+}
+
+.comment__comment:before {
+  content: ">";
+  color: #CCC;
+  margin-right: .5rem;
+}
+
+.comment__delete-button, .comment__add-comment-button {
+  display: inline-block;
+  font-size: .6rem;
+  background: none;
+  padding: .2rem;
+  margin-left: 1rem;
+  border: .01rem solid #333;
+  cursor: pointer;
+  outline: none;
+  transition: background .3s ease-out;
+  margin-right: .5rem;
+
+  &:hover {
+    color: #fff;
+    background: #333;
+  }
+}
